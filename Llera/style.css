@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: rgb(47, 47, 153);
+}
+
+.contenedor {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario {
+    padding: 3%;
+    display: block;
+    background-color: rgb(197, 40, 40);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3%;
+    justify-items: center;
+    align-items: center;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-weight: bold;
+    justify-items: center;
+    align-items: center;
+    text-align:left;
+}
+
+.etiqueta {
+    justify-items: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor .formulario {
+    border-radius: 5px;
+    border: solid 2px;
+
+}
+
+
+
+
+
+
+
+.bodyphp {
+    background-color: gray;
+}
+
+.interno {
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 1%;
+}
+
+.contenedorphp {
+    padding: 3%;
+    display: block;
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto {
+    text-align: center;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamaño {
+    width: 100px;
+    height: 100px;
+}
+
+.elemento1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 1%;
+    margin: 1%;
+}
+
+.elemento2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 1%;
+    margin: 1%;
+}
+
+.elemento3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 1%;
+    margin: 1%;
+}
+
+.elemento4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 1%;
+    margin: 1%;
+}
+
+.elemento5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 1%;
+    margin: 1%;
+}
+
+.contenedorphp .elemento1,
+.contenedorphp .elemento2,
+.contenedorphp .elemento3,
+.contenedorphp .elemento4,
+.contenedorphp .elemento5 {
+    border-radius: 5px;
+    border: solid 2px;
+
+}
