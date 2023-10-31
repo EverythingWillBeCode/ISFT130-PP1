@@ -43,7 +43,7 @@
             </h4>
             </div>
             <div class="elemento3">
-                 <h3 class="previa">Tu edad es: </h3>
+                <h3 class="previa">Tu edad es: </h3>
                 <h4 class="interno">
                     <?php
                         echo $edad;
@@ -52,7 +52,6 @@
                         } else {
                             echo " (Socio menor - NO PAGA CUOTA)";
                         }
-                         
                     ?>
             </h4>
             </div>
@@ -76,14 +75,10 @@
                 <br>
                 <H3>PARA FINALIZAR EL PROCESO DE ASOCIADO, TENES QUE ABONAR TU CUOTA EN LA SECRETARIA DEL CLUB</H3>
             </div>
-          
         </div>
     
     
             
 
-           
-
- 
 </body>
 </html>
