@@ -1,0 +1,32 @@
+/* Código verde (mezclado) */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox en el cuerpo del documento */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Fondo gris claro para resaltar cajas */
+}
+
+.outer-container {
+    display: flex;
+    border: 2px solid #333; /* Borde gris oscuro alrededor del contenedor externo */
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column; /* Columnas para los contenedores internos */
+    padding: 10px;
+    flex: 1; /* Hace que los contenedores internos se expandan igualmente */
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    background-color: #ddd;
+    text-align: center;
+    flex: 1; /* Hace que las cajas se expandan igualmente dentro de los contenedores internos */
+}
